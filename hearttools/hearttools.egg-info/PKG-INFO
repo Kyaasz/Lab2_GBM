@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: hearttools
+Version: 1.0.0
+Summary: Helper lib for the GBM6700E lab 2
+Author-email: Victor NOGUES <victor.nogues@polymtl.ca>
+Project-URL: Homepage, https://github.com/vtrno/PyGBM6700E
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==1.23.5
+Requires-Dist: imageio
+Requires-Dist: mat4py
+Requires-Dist: matplotlib
+Requires-Dist: plotly
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
+# SpineTools
+
+Python package for GBM6700E course lab 2 at Polytechnique Montréal
+
+## Installation instructions
+
+1. Activate the existing environment : `conda activate gbm6700e`
+2. Navigate to this folder : `cd PyGBM6700E/lab_2`
+3. Install the package : `pip install .`

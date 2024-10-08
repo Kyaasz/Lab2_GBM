@@ -1,0 +1,8 @@
+numpy==1.23.5
+imageio
+mat4py
+matplotlib
+plotly
+scipy
+pandas
+tqdm
